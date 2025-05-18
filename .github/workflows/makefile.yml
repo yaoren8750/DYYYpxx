@@ -23,8 +23,7 @@ jobs:
         with:
           path: ${{ github.workspace }}/theos
           key: ${{ runner.os }}-${{ env.upstream_heads }}
-- name: Debug Build Directory
-  run: ls -R /Users/runner/work/DYYYpxx/DYYYpxx/
+
       - name: Prepare Theos
         uses: huami1314/theos-action@main
 
